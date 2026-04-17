@@ -1,0 +1,80 @@
+package com.medicssupport.support.clinical.clinical.model.unit;
+
+import lombok.Data;
+import lombok.NoArgsConstructor;
+import lombok.AllArgsConstructor;
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.time.LocalTime;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+public class UnitDTO {
+    private Integer unitRid;
+    private String unitCode;
+    private String unitPrefix;
+    private String unitName;
+    private Integer unitEntRid;
+    private Integer unitParentRid;
+    private Integer unitHead;
+    private LocalTime unitWorkHrsFrom;
+    private LocalTime unitWorkHrsTo;
+    private Integer unitHasBeds;
+    private Integer unitIsSubstore;
+    private Integer unitIsMainStore;
+    private Boolean unitValid;
+    private Integer unitModUserRid;
+    private LocalDateTime unitModDatetime;
+    private Integer unitIsDepartment;
+    private Integer unitIsClinical;
+    private Integer unitCanMakeGRN;
+    private String unitDispName;
+    private String unitStreet;
+    private Integer unitCity;
+    private Integer unitState;
+    private Integer unitCountry;
+    private Integer unitPinCode;
+    private String unitPhone;
+    private String unitTinNo;
+    private String unitDlNo;
+    private LocalDate unitDlValidUpto;
+    private Integer unitIsDefOpPharmacy;
+    private Integer unitIsDefIpPharmacy;
+    private Integer unitIsDefOpMaterial;
+    private Integer unitIsDefIpMaterial;
+    private Integer unitIsExternal;
+    private Integer unitIsServiceProvider;
+    private Integer unitIsPurchasing;
+    private Integer unitCanProcessIndent;
+    private String unitCstNo;
+    private Integer unitTypeIndex;
+    private Integer unitCategory;
+    private Integer unitCostCenterRid;
+    private Integer unitIsSurgical;
+    private Integer unitIsPurchaseTaxable;
+    private Integer unitTracksPatientDelay;
+    private Integer unitIsEmergency;
+    private Integer unitStockKeepingUnitRid;
+    private Integer unitIsTaxable;
+    private Integer unitIsNeonatal;
+    private Integer unitIsBilling;
+    private Integer unitRequireMrdRequest;
+    private Integer unitDummy1;
+    private String unitRecordExist;
+    private String unitRegNo;
+    private String unitServiceTaxNumber;
+    private String unitPanNumber;
+    private Integer recordExist;
+    private Integer unitIsSterilization;
+    private Integer unitSampleCollectingUnit;
+    private String unitEmailId;
+    private Integer unitSpecialityIndex;
+    private Integer unitCanPlaceHpOrders;
+    private Integer unitHasVirtualBed;
+    private String unitBedVirtualPrefix;
+    private Integer unitOrderDefaultHp;
+    private Integer unitIsLocation;
+    private Short unitDefaultSampleCollecting;
+    private String unitColorCode;
+}
